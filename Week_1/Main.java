@@ -50,7 +50,7 @@ public class Main {
     File content = new File(args[0]);
     if(content.exists()) {
 
-      try(BufferedReader brStopWord = new BufferedReader(new FileReader("./stop_words.txt"))) {
+      try(BufferedReader brStopWord = new BufferedReader(new FileReader("../stop_words.txt"))) {
 
         System.out.println("File exists!!");
 
